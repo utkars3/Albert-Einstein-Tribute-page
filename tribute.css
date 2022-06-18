@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    background-color: #222;
+    color: #bbb;
+}
+#main{
+    width: 80%;
+    margin: 35px;
+    text-align: center;
+    background-color: #444;
+    padding: 0px 30px;
+    border-radius: 12px;
+    box-shadow: 2px 5px 10px #aaa;
+}
+#main > header > #title{
+    font-size: 32px;
+    padding-top: 10px;
+    border-bottom: 1px solid #333;
+}
+#main>header>p{
+    max-width: 75%;
+    margin: auto;
+    font-size: 16px;
+}
+#img-div{
+    max-width: 60%;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: #222;
+    text-align: center;
+    border-radius: 7px;
+}
+#img-div>img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    border-radius: 7px;
+    padding-bottom: 15px;
+}
+#tribute-info>h2{
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+#tribute-info>ul{
+    text-align: left;
+    max-width: 80%;
+    margin: auto;
+}
+#tribute-info>ul>li{
+    
+    padding-bottom: 20px;
+}
+#tribute-info>#blockquote{
+    border: 2px solid #222;
+    padding-bottom: 16px;
+    border-radius: 6px;
+    max-width: 80%;
+    margin: auto;
+}
+
+#main>footer{
+    padding: 25px 0;
+}
+#main>footer>a{
+    color: #bbb;
+}
+#main>footer>a:hover{
+    font-weight: bold;
+}
+
+/* for mobile */
+@media (max-width:768px){
+#main>header>p{
+    max-width: 95%;
+}
+#img-div{
+    max-width: 80%;
+}
+#tribute-info{
+    max-width: 95%;
+}
+#tribute-info>ul{
+    max-width: 95%;
+}
+#tribute-info>#blockquote{
+    max-width: 90%;
+}
+}
